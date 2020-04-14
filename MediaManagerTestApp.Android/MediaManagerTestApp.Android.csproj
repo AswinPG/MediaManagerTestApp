@@ -58,12 +58,6 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Plugin.MediaManager">
-      <Version>0.9.7</Version>
-    </PackageReference>
-    <PackageReference Include="Plugin.MediaManager.Forms">
-      <Version>0.9.7</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
   </ItemGroup>
@@ -99,6 +93,14 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\Xamarin\XamarinMediaManager\MediaManager.Forms\MediaManager.Forms.csproj">
+      <Project>{225239c0-8c3b-40c5-99bf-ccf8c68266fb}</Project>
+      <Name>MediaManager.Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\Documents\Xamarin\XamarinMediaManager\MediaManager\MediaManager.csproj">
+      <Project>{4e21f03d-f5ce-4e68-ae82-3959745b2c2d}</Project>
+      <Name>MediaManager</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MediaManagerTestApp\MediaManagerTestApp.csproj">
       <Project>{0282005B-E461-45A6-BD11-6557E35F8682}</Project>
       <Name>MediaManagerTestApp</Name>

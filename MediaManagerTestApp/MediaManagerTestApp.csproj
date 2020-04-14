@@ -11,9 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Plugin.MediaManager" Version="0.9.7" />
-    <PackageReference Include="Plugin.MediaManager.Forms" Version="0.9.7" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\Xamarin\XamarinMediaManager\MediaManager.Forms\MediaManager.Forms.csproj" />
+    <ProjectReference Include="..\..\..\..\Documents\Xamarin\XamarinMediaManager\MediaManager\MediaManager.csproj" />
   </ItemGroup>
 </Project>
